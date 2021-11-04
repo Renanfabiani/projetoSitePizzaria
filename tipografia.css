@@ -1,0 +1,279 @@
+/*
+Tipografia
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Pacifico', cursive;
+
+
+CORES
+VERDE ESCURO: #065902
+VERDE MAIS CLARO: #078C31
+AMARELO: #F2B705
+VERMELHO MAIS CLARO: #F03733
+VEREMELHO ESCURO: #D90404
+
+
+
+
+CINZA ESCURO: #404040
+CINZA BEM CLARO: #F7F7F7
+*/
+
+*{
+  font-size: 16px;
+} 
+
+h1, h2, h3 {
+  font-family: 'Fredericka the Great', cursive;
+  text-align: center;/*para ficar no centro*/
+  text-transform: uppercase;/*uppercase = sempre com letra maiuscula*/
+  color:#D90404;
+}
+
+h4, h5, h6 {
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  color:#F2B705;
+}
+
+h1{
+  font-size: 600%;
+  font-weight: 200;/*para definir grossura da letra*/
+}
+
+h2{
+  font-size: 400%;
+  font-weight: 200;/*para definir grossura da letra*/
+}
+
+p, li, a {
+  font-family: 'Open Sans', sans-serif;
+  color: #404040;
+}
+
+p.destaque{
+  font-size: 105%;
+  line-height: 1.8;/*altura da linha*/
+  font-weight: 320;
+  text-align: center;
+  width: 60%;/*largura do texto*/
+}
+
+/*---------------*/
+/*ELEMENTOS DO HEADER*/
+/*---------------*/
+
+header div#chamada h1{
+  font-size: 450%;
+  color: white;
+  text-shadow: 4px 6px 10px #000;/*sombra da letra do sunday pizza sunday*/
+
+  animation-name: HeaderH1-moverParaDireita;/*essa animação esta no arquivo animacao*/
+  animation-duration: 2s;
+  animation-timing-function: ease-out;/*aceleração que vai freando no final*/
+}
+
+header div#chamada h4{
+  font-size: 175%;
+  text-shadow: 4px 6px 10px #000;
+
+  margin-bottom: 30px;/*margin bottoon é margim para baixo - serve para afastar o texto do a do texto do h4*/
+  animation-name: HeaderH4-moverParaEsquerda;
+  animation-duration: 1.5s;
+  animation-delay: 0.5s;/*para a animação coomeçar um pouco depois da h1*/
+  animation-timing-function: ease-out;
+  animation-fill-mode: backwards;/*para melhorar a animação*/
+}
+
+header div#chamada a{
+  font-size: 110%;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+
+  padding: 13px 40px;
+  border-radius: 50px;/*para deixar a borda arredondada*/
+  background: linear-gradient(rgba(7,140,49,55)0%, rgba(6,89,2,35)40%, rgba(6,89,2,35)100%);/*para colocar um gradiente no verde do texto do a, isso pega do site do coloor adobe*/
+  display: inline-block;/*para permitir a animação, oo elemento a precisa disso*/
+  animation-name: @keyframes HeaderA-moverParaCima; 
+  animation-duration: 1s;
+  animation-delay: 1s;/*para a animação coomeçar um pouco depois da h1*/
+  animation-timing-function: ease-out;
+  animation-fill-mode: backwards;/*para melhorar a animação*/
+
+}
+
+/*------------------*/
+/* SEÇÃO - DOMINGO PERFEITO */
+/*----------------*/
+
+
+
+div#domingo-perfeito-centro h2{
+  margin-top: -10px;
+  font-size: 350%;
+  margin-bottom: 30px;
+}
+ 
+div.pontos-chaves p{
+  font-size: 85%;
+}
+
+
+
+h4{
+  font-size: 115%;
+  font-weight: 150%;
+  padding: 20px 0;
+}
+
+
+div.pontos-chaves h4{
+  color: #404040
+}
+
+div.pontos-chaves h4:after{ 
+  display: block;
+  background-color: #078C31;
+  height: 5px;
+  width: 30%;
+  margin: auto;
+  content: " ";
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+
+div#domingo-perfeito-centro h2:after{ 
+  display: block;
+  background-color: #078C31;
+  height: 5px;
+  width: 90px;
+  margin: auto;
+  content: " ";
+  margin-top: 20px;
+}
+
+
+
+/*------------------*/
+/* SEÇÃO - PIZZA */
+/*----------------*/
+
+section#pizza p{
+  color: white;
+  width: 35%;
+}
+
+section#pizza h2:after{
+  display: block;
+  background-color: #078C31;
+  height: 5px;
+  width: 80px;;
+  margin: auto;
+  content: " ";
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+section#pizza ul li{
+  color: white;
+  list-style: none;/*para tirar o (.) do ul li*/
+  line-height: 1.9 /*aumentar a altura das linhas entre os textos*/;  
+  font-size: 90%;
+  text-transform: uppercase;/*para deixar o texto todo maiúsculo*/
+
+}
+
+/*------------------*/
+/* SEÇÃO - DEPOIMENTOS*/
+/*----------------*/
+
+section#testemunha h2:after{
+  display: block;
+  background-color: #078C31;
+  height: 5px;
+  width: 65px;;
+  margin: auto;
+  content: " ";
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+div#testemunha-mestre{
+  width: 100%;
+  height: 600px;
+  margin-top: 90px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+section#testemunha p.destaque{
+  width: 40%;
+  background-color: #fff;/*para o texto atras ficar com fundo branco*/
+}
+
+section#testemunha h2{
+  font-size: 55px;
+}
+
+section#plano-principal h2:after{
+  display: block;
+  background-color: #078C31;
+  height: 5px;
+  width: 85px;;
+  margin: auto;
+  content: " ";
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+/*------------------*/
+/* SEÇÃO - PLANOS */
+/*----------------*/
+
+
+section#plano-principal h4{
+  color: #D90404;
+}
+
+section#plano-principal ul{
+  margin-top: 25px;
+}
+
+section#plano-principal ul li{
+  font-size: 85%;
+  text-align: left;
+  margin-left: 30px;
+  line-height: 2;
+  text-decoration: none;
+}
+
+section#plano-principal div.planos-bottom p{
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 35px;
+
+}
+
+/*------------------*/
+/* SEÇÃO - FOOTER */
+/*----------------*/
+
+
+footer div#info ul{
+  margin-left: 15px;
+  margin-bottom: 120px;
+}
+
+
+
+footer #info li{
+  list-style: none;
+  color: white;
+  margin-bottom: 5px;
+}

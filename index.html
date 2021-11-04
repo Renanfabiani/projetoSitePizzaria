@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Pizzaria Fontenelle></title>
+
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"   rel="stylesheet"><!--esse link serve para quando vc rolar a página do seu site e ele identificar e fazer as animações!-->
+      <link rel="preconnect" href="https://fonts.googleapis.com"> <!--link da fonte selecionada no googlefonts !-->
+      <link href="_estilos/animacao.css"rel="stylesheet"/>
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!--link da fonte selecionada no googlefonts !-->
+      <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Open+Sans:wght@300;400&family=Pacifico&display=swap" rel="stylesheet"> <!--link da fonte selecionada no googlefonts!-->
+      <link href="layout.css" rel="stylesheet"/> <!-- para importar arquivo css !-->
+      <link href="tipografia.css" rel="Stylesheet"/> <!--para importar arquivo css !-->
+
+    </head>
+        <body>
+          <div id="teste"></div>
+          <header> <!--usa para cabeçalho !-->
+          <nav> <!--usa para navegação (menus) !-->
+              <div id="logo"></div>
+              <ul id="esquerda">
+                <li><a href="#">HOME</a></li> <!--um li para cada opção (home....) , o # é porque o link nao vai abrir nenhuma outra pagina!--> 
+                <li><a href="#domingo-perfeito">DOMINGO PERFEITO</a></li>
+                <li><a href="#pizza">PIZZA</a></li>
+                <li><a href="#testemunha">DEPOIMENTOS</a></li>
+                <li><a href="#plano-principal">PLANOS</a></li>
+              </ul>
+
+              <ul id="direita">
+                <li><a id="criar-conta" href="#">CRIAR CONTA</a></li>
+                <ion-icon id="icone-user" name="person-circle-outline"></ion-icon><!--ícone de login este código pega no site ionics!-->
+              </ul>
+            </nav>
+
+            <div id="chamada">
+              <h1>SUNDAY PIZZA SUNDAY</h1>
+              <h4>Sua Pizza do Seu Jeito, Sem Atrasos</h4>
+              <a href="#plano-principal">ESCOLHA AGORA MESMO SEU PLANO</a>
+            </div>
+          </header>
+
+
+          <section id="domingo-perfeito">
+              <div id="domingo-perfeito-esquerda"><!--vai ser uma div decorativa !-->
+                <div class="folha1"></div>
+                <div class="camarao"></div>
+                <div class="folha2"></div>
+                
+              </div>
+
+              <div id="domingo-perfeito-centro">
+                <h2>Seu Domingo Perfeito</h2>
+                <p class="destaque">Você adora comer pizza aos domingos a noite? </br>Reunir a família, brindar e saborear a pizza do jeito que você gosta. Nós oferecemos a melhor maneira desta pizza chegar quentinha, na hora certa, sem atrasos e do jeito que você gosta. 
+                  </p>
+                <div id="pontos-chaves-mestre">
+                  <div class="pontos-chaves">
+                    <ion-icon name="people-outline"></ion-icon>
+                    <h4>Família</h4>
+                    <p>Domingo a noite é dia da família se reunir, conversar, rir e saborear uma maravilhosa pizza. Mas agora, você não precisa mais ligar para pedir, nós enviaremos todos os domingos para você.</p>
+                  </div>
+                  <div class="pontos-chaves">
+                    <ion-icon name="time-outline"></ion-icon>
+                    <h4>Horário</h4>
+                    <p>Sabe aquela sensação de ficar aguardando a pizza chegar e ela nunca chega? Pois é, aqui sua pizza chegará sempre no horário programado por você. Nosso intervalo de espera nunca supera 15 minutos.</p>
+                  </div>
+                  <div class="pontos-chaves">
+                    <ion-icon name="card-outline"></ion-icon>
+                    <h4>Preço</h4>
+                    <p>Quando o entregador chegar na sua casa, você só recebe, nem precisa pagar. Por um preço justo, você pagará apenas pela frequência que você deseja receber sua pizza.</p>
+                  </div>
+
+                </div>
+
+              </div>
+
+              <div id="domingo-perfeito-direita"><!--vai ser uma div decorativa !-->
+              <div class="folha3"></div>
+              <div class="tomate"></div>
+              <div class="queijo"></div>
+
+              </div>
+
+
+          </section>
+
+          <section id="pizza">
+            <h2>SUA PIZZA DO SEU JEITO</h2>
+            <p class="destaque  ">Massa alta, massa fina, massa com fermento, sem fermento, integral ou sem gluten. Ninguém sabe fazer a sua pizza como nós. Temos mais de 100 combinações para você escolher como chegará sua pizza.</p>
+
+            <div id="pizza-opcoes-mestre">
+              <div class="pizza-opcoes">
+                <h4>Sabores Tradicionais</h4>
+                <ul>
+                    <li>Pepperoni</li>
+                    <li>Mussarela</li>
+                    <li>Portuguesa</li>
+                    <li>Bauru</li>
+                    <li>Napolitana</li>                        
+                </ul>
+            </div>
+            <div class="pizza-opcoes">                     
+                <h4>Sabores Especiais</h4>
+                <ul>
+                    <li>Camarão</li>
+                    <li>4 Queijos</li>
+                    <li>Margherita</li>
+                    <li>Supreme</li>
+                    <li>Mussarela de Bufallo</li>
+                </ul>
+            </div>
+            <div class="pizza-opcoes">
+                <h4>Massas</h4>
+                <ul>
+                    <li>Tradicional</li>
+                    <li>Fina</li>
+                    <li>Pan</li>
+                    <li>Integral</li>
+                    <li>Sem Gluten</li>
+                </ul>
+            </div>
+            <div class="pizza-opcoes">
+                <h4>Bordas</h4>
+                <ul>
+                    <li>Sem recheio</li>
+                    <li>Catupiry</li>
+                    <li>Cream Cheese</li>
+                    <li>Especial da Casa</li>
+                </ul>                  
+            </div>
+            <div class="pizza-opcoes">
+                <h4>Sobremesa</h4>
+                <ul>
+                    <li>Cartola</li>
+                    <li>Mousse de Chocolate</li>
+                    <li>Pavê</li>
+                    <li>Pudim</li>
+                    <li>Torta Alemã</li>
+                </ul> 
+            </div>
+            <div class="pizza-opcoes">
+                <h4>Bebidas</h4>
+                <ul>
+                    <li>Refrigerante 2L</li>
+                    <li>Refrigerante 1L</li>
+                    <li>Suco de Laranja</li>
+                    <li>Suco de Limão</li>
+                </ul>                 
+            </div>
+
+
+            </div>
+            
+
+
+          </section>
+
+          <section id="testemunha">
+            <h2>MAS FALAM DE NÓS</h2>
+           
+            <p class="destaque">Já ouviu falar em propaganda boca a boca?<br> Então, para uma pizzaria nada mais apropriado né? Veja só o que nossos publicitários, digo, clientes falam sobre nós.
+            </p>
+
+            <div id="testemunha-mestre">
+              <div id="testemunha-esquerda">
+                <ion-icon name="arrow-back-circle-outline"></ion-icon>
+              </div>
+
+              <div id="testemunha-centro">
+                <div id="testemunhos">
+                  <ul>
+                    <li><img src="Imagens/secao11-depoimento-1.jpg"></li>
+                    <li><h5>Julia</h5><p>Pizza muito deliciosa, pediria sempre!.</p></li>
+                </ul>
+                <ul>
+                    <li><img src="Imagens/secao11-depoimento-2.jpg"></li>
+                    <li><h5>Daniel</h5><p>Qualidade da pizza é surreal, peçam sem medo!</p></li>
+                </ul>
+                <ul>
+                    <li><img src="Imagens/secao11-depoimento-3.jpg"></li>
+                    <li><h5>Cris</h5><p>Preço e qualidade aburda, ja posso pedir novamente?</p></li>
+                </ul>
+                <ul>
+                    <li><img src="Imagens/secao11-depoimento-4.jpg"></li>
+                    <li><h5>Fernando</h5><p>Sonhei com essa pizza de tão deliciosa que é.</p></li>
+                </ul>  
+                <ul>
+                    <li><img src="Imagens/secao11-depoimento-2.jpg"></li>
+                    <li><h5>Henrique</h5><p>Peçam 1, 2, 3, 4, 1000 vezes! A pizza é deliciosa.</p></li>
+                </ul>
+                <ul>
+                    <li><img src="Imagens/secao11-depoimento-1.jpg"></li>
+                    <li><h5>Marilia</h5><p>A experiência de morder essa pizza é espetacular!</p></li>
+                </ul>
+                <ul>
+                    <li><img src="Imagens/secao11-depoimento-2.jpg"></li>
+                    <li><h5>Filipe</h5><p>Ja quero sexta feira novamente para pedir essa pizza.</p></li>
+                </ul>
+                <ul>
+                    <li><img src="Imagens/secao11-depoimento-3.jpg"></li>
+                    <li><h5>Rafaela</h5><p>Galera, fiquei maravilhosa com essa pizza de mussarela, que deliciosa!</p></li>
+                </ul>  
+                <ul>
+                    <li><img src="Imagens/secao11-depoimento-1.jpg"></li>
+                    <li><h5>Marcela</h5><p>Só tenho uma coisa para falar, ESPETACULAR</p></li>
+                </ul>
+                <ul>
+                    <li><img src="Imagens/secao11-depoimento-2.jpg"></li>
+                    <li><h5>Victor</h5><p>Se fosse para indicar uma pizza, com certeza seria essa</p></li>
+                </ul>
+                <ul>
+                    <li><img src="Imagens/secao11-depoimento-3.jpg"></li>
+                    <li><h5>Vanda</h5><p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</p></li>
+                </ul>
+                <ul>
+                    <li><img src="Imagens/secao11-depoimento-4.jpg"></li>
+                    <li><h5>André</h5><p>Quero comer mais, ja podem trazer outra hahaha</p></li>
+                </ul> 
+
+                </div>
+
+
+              </div>
+
+
+              <div id="testemunha-direita">
+                <ion-icon name="arrow-forward-circle-outline"></ion-icon>
+              </div>
+                
+
+            </div>
+
+
+          </section>
+
+          <div id="transicao-testemunha-plano">
+              <div id ="decoracao1"></div>
+              <div id ="decoracao2"></div>
+              <div id ="decoracao3"></div>
+          </div>
+
+
+          <section id="plano-principal">
+            <h2>ESCOLHA SEU PLANO</h2>
+            <div id="planos-janela">
+                <div class="planos">
+                  <div class="planos-top">
+                    <h4>Plano Ouro</h4>
+                    <p><strong>2 vezes por mês</strong></p>
+                    <ul>
+                        <li>2 pizzas G a sua escolha.</li>
+                        <li>2 Refrigerantes 2L.</li>
+                        <li>Entrega grátis.</li>
+                        <li>Você escolhe os dias e horários.</li>
+                    </ul>
+                    <p><strong>R$ 50,00</strong></p>
+                  </div>
+                  <div class="planos-bottom">
+                    <p>QUERO ASSINAR</p>
+                  </div>
+                </div>
+                <div class="planos">
+                  <div class="planos-top">
+                    <h4>Plano Planinium</h4>
+                    <p>3 vezes por mês</p> 
+                    <ul>
+                        <li>3 pizzas G a sua escolha.</li>
+                        <li>3 Refrigerantes 2L.</li>
+                        <li>Entrega grátis.</li>
+                        <li>Você escolhe os dias e horários.</li>
+                    </ul>    
+                    <p><strong>R$ 70,00</strong></p>  
+                  </div>
+                  <div class="planos-bottom">
+                  <p>QUERO ASSINAR</p>
+                  </div>
+                </div>
+                <div class="planos">
+                  <div class="planos-top">
+                    <h4>Plano Black</h4>
+                    <p>4 vezes por mês</p>  
+                    <ul>
+                        <li>4 pizzas G a sua escolha.</li>
+                        <li>4 Refrigerantes 2L.</li>
+                        <li>1 surpresa por mês</li>
+                        <li>Entrega grátis.</li>
+                        <li>Você escolhe os dias e horários.</li>
+                    </ul>   
+                    <p><strong>R$ 120,00</strong></p>  
+                  </div>
+                  <div class="planos-bottom">
+                    <p>QUERO ASSINAR</p>
+                  </div>
+                </div>
+              </div>
+                 
+
+
+          </section>
+
+          <div id="transicao-plano-rodape"></div>
+          
+          <footer><!--usado para rodapé !-->
+            <div id="mapa"><!--esse link do mapa pega no google maps !-->
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29238.99949634588!2d-46.72115552891984!3d-23.644649454163343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce50f947b37dc9%3A0x4e12a7939f03c837!2sSanto%20Amaro%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1635374677148!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div id="info">
+              <h4>Endereço e Telefone</h4>
+              <ul>
+                <li>Rua Jupi, 251</li>
+                <li>São Paulo, SP</li>
+                <li>CEP: 05754-670</li>
+                <li>(11) 99875-5432</li>
+              </ul>
+
+              <div id='redes-sociais'>
+                <ion-icon id="facebook" name="logo-facebook"></ion-icon>
+                <ion-icon id="instagram" name="logo-instagram"></ion-icon>
+                <ion-icon id="twitter" name="logo-twitter"></ion-icon>
+                <ion-icon id="youtube" name="logo-youtube"></ion-icon>
+                <ion-icon id="linkedin" name="logo-linkedin"></ion-icon>
+                </div>
+
+            </div>
+            <div id="pizza-rodape-decoracao"></div>
+
+          </footer>
+
+
+          <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script><!--para usar o jquerry !-->
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/shortcuts/sticky.min.js" integrity="sha512-O5YCLUxCY2OBc4rfpnKUIgE4LGuCiW8CrJ7ty4hvkBAAKUOnlbomEFWd3a6ruRnFvO3LG2wiaGiJ1heOvdppvA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+          <script src="_scripts/script.js"></script>
+          <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script><!--para deixar a imagem de login ser usado !-->
+        </body>
+</html>

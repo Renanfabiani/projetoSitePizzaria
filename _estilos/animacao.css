@@ -1,0 +1,46 @@
+/*animacao do titulo*/
+
+@keyframes HeaderH1-moverParaDireita{
+  0%{
+    opacity: 0;
+    transform: translateX(-75px);/*serve para o texto sunday pizza sunday sair da esquerda e ir para direita na animação*/
+  }
+
+  70%{
+    transform: translateX(20px);/*serve para o texto ir um pouco para a direita antes de se estabilizar no centro*/
+  }
+
+  100%{
+    opacity: 1;
+    transform:translateX(0);
+  }
+}
+
+@keyframes HeaderH4-moverParaEsquerda{
+  0%{
+    opacity: 0;
+    transform: translateX(50px);/*serve para o texto sua pizza do seu jeito sair da direita e ir para esquerda na animação*/
+  }
+
+  70%{
+    transform: translateX(-5px);/*serve para o texto ir um pouco para a direita antes de se estabilizar no centro*/
+  }
+
+  100%{
+    opacity: 1;
+    transform:translateX(0);
+  }
+}
+
+@keyframes HeaderA-moverParaCima{
+  0%{
+    opacity: 0; 
+    transform: translateY(30px);
+  }
+
+  100%{
+    opacity: 1;
+    transform: translateY(0px);
+  }
+
+}
